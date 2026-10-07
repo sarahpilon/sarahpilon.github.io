@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centers page content (img and description)*/
+.Page-Content {
+  display: flex;
+  justify-content: center;   
+  align-items: center;
+  padding: 100px;       
+}
+
+/* Navigation Bar */
+.NavBarTop {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 0 16px;
+}
+
+/* Let left and right take up space to keep center one centered */
+.Nav-Left,
+.Nav-Right {
+  flex: 1;
+}
+
+/* Keep the contact button in the middle of said container */
+.Nav-Right {
+  display: flex;
+  justify-content: center;   
+}
+
+/* Main navigation information */
+.Nav-Center {
+  display: flex;
+}
+
+.Nav-Center a {
+  color: #f2f2f2;
+  padding: 15px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.Nav-Center a:hover {
+  background-color: #b3b2b2;
+  color: #000;
+}
+
+.Nav-Center a.active {
+  background-color: #555;
+}
+
+/* Contact button information */
+.Contact {
+  padding: 8px 18px;
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.Contact:hover {
+  background-color: #b3b2b2;
+}
+
+/* Main container to hold two boxes */
+.Main-information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;   
+  gap: 48px;
+  width: 90%;
+  max-width: 1000px;
+  position: relative;
+  animation: mainInfo 1s ease-out forwards;         
+}
+
+/* Animation for Image */
+@keyframes mainInfo {
+  0%   {opacity: 0; transform: translate(0px, 20px);}
+  25%   {opacity: 0.1;}
+  100%  {opacity: 1; transform: translate(0px, 0px);}
+}
+
+/* Left containers */
+.Description-Left {
+  flex: 1;                   
+}
+
+.Title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.Year_Major {
+  font-size: 0.85rem;
+  padding-bottom: 4px;
+  border-bottom: 2px solid black;   
+  margin-bottom: 12px;
+}
+
+.Description {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* right box */
+.Image-Right {
+  flex: 0 0 45%;            
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;    
+  gap: 12px;
+}
+
+.Image-of-Me {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Icons */
+.Icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+}
+
+.Icons img {
+  height: 50%;
+}
