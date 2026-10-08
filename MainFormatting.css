@@ -4,6 +4,32 @@
   padding: 0;
 }
 
+/* Fonts  */
+.ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.varta-semibold {
+  font-family: "Varta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.varta-bold {
+  font-family: "Varta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* Centers page content (img and description)*/
 .Page-Content {
   display: flex;
@@ -17,7 +43,15 @@
   display: flex;
   align-items: center;
   background-color: #333;
-  padding: 0 16px;
+  padding: 12px 16px;
+}
+
+/* Bottom Header */
+.BottomHeader {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 12px 16px;
 }
 
 /* Let left and right take up space to keep center one centered */
