@@ -35,7 +35,8 @@
   display: flex;
   justify-content: center;   
   align-items: center;
-  padding: 35px;       
+  padding: 35px;
+  height: 100vh;       
 }
 
 /* Navigation Bar */
@@ -109,5 +110,28 @@
 
 .NewSection {
   font-size: 50px;
-  padding-left: 50px;
+  padding-left: 0;
+  margin-bottom: 24px;
+}
+
+#Projects,
+#Skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  align-items: center;
+  min-height: 100vh;  
+}
+
+/* Animate new area upon scroll */
+.fadein {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fadein.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
