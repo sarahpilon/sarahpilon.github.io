@@ -106,3 +106,8 @@
 .Contact:hover {
   background-color: #b3b2b2;
 }
+
+.NewSection {
+  font-size: 50px;
+  padding-left: 50px;
+}

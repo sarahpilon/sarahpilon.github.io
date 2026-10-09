@@ -1,0 +1,104 @@
+/* Holds all the projects */
+.Projects-Content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center; 
+  gap: 24px;
+  padding: 32px;
+  width: 100%;
+  max-width: 1012px;
+  margin: 0 auto;
+}
+
+/* Single Project Tab */
+.Proj-Card {
+  width: 300px;
+  background-color: #d9d9d9;
+  overflow: hidden;         
+  font-family: "Courier New", monospace;
+}
+
+/* No image shown when not hovered */
+.Proj-Image {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.4s ease;
+}
+
+/* How much the image moves up */
+.Proj-Card:hover .Proj-Image {
+  height: 130px;
+}
+
+.Proj-Image img {
+  width: 100%;
+  height: 100%;
+  outline: 4px solid #d9d9d9;
+  outline-offset: -4px;
+  object-fit: cover;         
+  display: block;
+}
+
+/* Main information of project */
+.Project-Info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Title on the left, tag + date stacked on the right */
+.Proj-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.Proj-Title {
+  flex: 1;
+  background-color: #b3b3b3;
+  padding: 8px;
+  font-size: 1.0rem;
+}
+
+.SideInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Proj-Date,
+.Proj-Tag {
+  background-color: #b3b3b3;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.Proj-Description {
+  font-family: "Varta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #b3b3b3;
+  padding: 12px;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Tech chips row */
+.Proj-Tech {
+  display: flex;
+  gap: 8px;
+}
+
+.Proj-Tech span {
+  flex: 1;                  
+  background-color: #b3b3b3;
+  padding: 6px;
+  font-size: 0.8rem;
+  text-align: center;
+  border-radius: 10px;
+}
