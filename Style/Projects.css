@@ -5,7 +5,6 @@
   align-items: flex-start;
   justify-content: center; 
   gap: 24px;
-  padding: 32px;
   width: 100%;
   max-width: 1012px;
   margin: 0 auto;
@@ -72,9 +71,15 @@
 
 .Proj-Title {
   flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #b3b3b3;
   padding: 8px;
   font-size: 1.0rem;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
 }
 
 .SideInfo {
@@ -115,5 +120,19 @@
   font-size: 0.8rem;
   text-align: center;
   border-radius: 10px;
+}
+
+.card-link {
+  display: block; 
+  text-decoration: none; 
+  color: inherit;
+  transition: filter 0.3s ease;
+}
+
+.card-link:hover {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  filter: brightness(0.85)
 }
 
