@@ -1,7 +1,7 @@
 // Fade in when 70% is visible
-const fadeOut = 0.70;
+const fadeOut = 0.50;
 // Fade out once 60% is left
-const FadeIn = 0.60;
+const FadeIn = 0.40;
 
 const observer = new IntersectionObserver((entries, obs)=> {
     // track what elements appear

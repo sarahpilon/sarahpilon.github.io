@@ -1,0 +1,21 @@
+.Color-1 {
+  background-color: #d9d9d9;
+}
+
+/* When objects in Color one have an outline (images */
+.Color-1-Outline {
+  background-color: #d9d9d9;
+  outline: 4px solid #d9d9d9;
+}
+
+.Color-2 {
+    background-color: #b3b3b3;
+}
+
+.DividerLine {
+  border-bottom: 2px solid black;   
+}
+
+.Color-3 {
+  background-color: #333;
+}

@@ -6,24 +6,26 @@
     <link rel="stylesheet" href="Style/Projects.css">
     <link rel="stylesheet" href="Style/Skills.css">
     <link rel="stylesheet" href="Style/ContactMe.css">
+    <link rel="stylesheet" href="Theme.css">
     <script src="Style/animation.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Me</title>
   </head>
   <body>
         <!------------------------------------------------------------------------------------------------>
-    <div class="NavBarTop">
+    <div class="NavBarTop Color-3">
 
       <!-- Main navigation bar -->
       <div class="Nav-Left"></div>
         <div class="Nav-Center"> <div class="ibm-plex-mono-bold">
-        <a class="active" href="#AboutMe">About Me</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Skills">Skills</a>
+        <a class= "active Color-3" href="#AboutMe">About Me</a>
+        <a class = "Color-3" href="#Projects">Projects</a>
+        <a class = "Color-3" href="#Skills">Skills</a>
       </div></div>
 
       <!--   Contact button   -->
       <div class="Nav-Right">
-        <a class="Contact" href="contactme">Contact me!</a>
+        <a class="Contact Color-1" href="contactme">Contact me!</a>
       </div>
     </div>
 <!------------------ ABOUT ME SECTION ------------------->
@@ -36,7 +38,7 @@
                 <div class="Title">
                     <div class="ibm-plex-mono-semibold">Sarah Pilon</div>
                 </div>
-                <div class="Year_Major"> <div class="varta-bold">
+                <div class="Year_Major DividerLine"> <div class="varta-bold">
                   Third-Year Computer Science Student
                 </div></div>
                 <div class="Description"> <div class="varta-semibold">
@@ -63,7 +65,7 @@
 
 <section id="Projects" class = "fadein">
 
-<h1 class = NewSection> Projects </h1>
+<h1 class = "NewSection ibm-plex-mono-semibold"> Projects </h1>
 
 
 
@@ -73,31 +75,31 @@
    <!-- Project One-->
     <article class="Proj-Card">
      <!--------------- Image on card --------------->
-        <div class="Proj-Image">
+        <div class="Proj-Image Color-1-Outline">
           <img src="img/Portfolio.png" alt="Oshawott on webpage">
         </div>
 
      <!--------------- Rest of the project information --------------->
-     <div class="Project-Info">
+     <div class="Project-Info Color-1">
        <div class="ibm-plex-mono-semibold">
         <div class="Proj-Header">
-          <h1 class="Proj-Title">Peoplesoft API for IIA</h1>
+          <h1 class="Proj-Title Color-2">Peoplesoft API for IIA</h1>
         <div class="SideInfo">
-          <span class="Proj-Tag">Analytics</span>
-          <span class="Proj-Date">04 - 09/26</span>
+          <span class="Proj-Tag Color-2">Analytics</span>
+          <span class="Proj-Date Color-2">04 - 09/26</span>
         </div>
        </div>
       </div>
 
      <!--------------- Project Description  --------------->
-      <p class="Proj-Description">
+      <p class="Proj-Description Color-2">
         Developed an API which allowed communication between two data pipelines 
         with JSON payloads. Also restructured code to adhere to preexisting coding styles and
         file organization.
       </p>
 
      <!--------------- Tech used in Project  --------------->
-      <div class="Proj-Tech varta-semibold">
+      <div class="Proj-Tech varta-semibold Color-2">
         <span>React</span>
         <span>Axios</span>
         <span>Swagger</span>
@@ -109,31 +111,31 @@
     <a href="https://github.com/sarahpilon/sarahpilon.github.io" class="card-link">
     <article class="Proj-Card">
      <!--------------- Image on card --------------->
-        <div class="Proj-Image">
+        <div class="Proj-Image Color-1-Outline">
           <img src="img/Portfolio.png" alt="Oshawott on webpage">
         </div>
 
      <!--------------- Rest of the project information --------------->
-     <div class="Project-Info">
+     <div class="Project-Info Color-1">
        <div class="ibm-plex-mono-semibold">
         <div class="Proj-Header">
-          <h1 class="Proj-Title">Portfolio</h1>
+          <h1 class="Proj-Title Color-2">Portfolio</h1>
         <div class="SideInfo">
-          <span class="Proj-Tag">Web Project</span>
-          <span class="Proj-Date">09 - 10/26</span>
+          <span class="Proj-Tag Color-2">Web Project</span>
+          <span class="Proj-Date Color-2">09 - 10/26</span>
         </div>
        </div>
       </div>
 
      <!--------------- Project Description  --------------->
-      <p class="Proj-Description">
+      <p class="Proj-Description Color-2">
         Portfolio website project that allows non-cs majors to showcase
         their projects and host their own website at no cost! Hosted via GitHub featuring
         vanilla Javascript. <strong>Click to see the repo!</strong>
       </p>
 
      <!--------------- Tech used in Project  --------------->
-      <div class="Proj-Tech varta-semibold">
+      <div class="Proj-Tech varta-semibold Color-2">
         <span>HTML</span>
         <span>CSS</span>
         <span>JavaScript</span>
@@ -144,30 +146,30 @@
    <!-- Project Three-->
     <article class="Proj-Card">
      <!--------------- Image on card --------------->
-        <div class="Proj-Image">
+        <div class="Proj-Image Color-1-Outline">
           <img src="img/Portfolio.png" alt="Oshawott on webpage">
         </div>
 
      <!--------------- Rest of the project information --------------->
-     <div class="Project-Info">
+     <div class="Project-Info Color-1">
        <div class="ibm-plex-mono-semibold">
         <div class="Proj-Header">
-          <h1 class="Proj-Title">MLR Business Segment Tool</h1>
+          <h1 class="Proj-Title Color-2">MLR Business Segment Tool</h1>
         <div class="SideInfo">
-          <span class="Proj-Tag">Maintenance</span>
-          <span class="Proj-Date">05 - 07/26</span>
+          <span class="Proj-Tag Color-2">Maintenance</span>
+          <span class="Proj-Date Color-2">05 - 07/26</span>
         </div>
        </div>
       </div>
 
      <!--------------- Project Description  --------------->
-      <p class="Proj-Description">
+      <p class="Proj-Description Color-2">
         Provided documentation on a preexising which was easy for future developers
         to understand the architecture and API endpoints. Then removed security vulnerabilities as needed.
       </p>
 
      <!--------------- Tech used in Project  --------------->
-      <div class="Proj-Tech varta-semibold">
+      <div class="Proj-Tech varta-semibold Color-2">
         <span>LaTeX</span>
         <span>Typescript</span>
         <span>JSON</span>
@@ -183,7 +185,7 @@
 
 
 <section id="Skills" class = "fadein">
-  <h1 class = NewSection> Skills </h1>
+  <h1 class = "NewSection ibm-plex-mono-semibold"> Skills </h1>
     <div class="Skills-Content">
 meow pt2<br><br><br><br><br>
     </div>
@@ -194,6 +196,6 @@ meow pt2<br><br><br><br><br>
 
 
 <!------------------------------------------------------------------------------------------------>
-<div class="BottomHeader"></div>
+<div class="BottomHeader Color-3"></div>
   </body>
 </html>

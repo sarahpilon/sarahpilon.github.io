@@ -30,7 +30,6 @@
 .Year_Major {
   font-size: 0.85rem;
   padding-bottom: 4px;
-  border-bottom: 2px solid black;   
   margin-bottom: 12px;
 }
 
@@ -64,4 +63,23 @@
 
 .Icons img {
   height: 50%;
+}
+
+/* Phones */
+@media (max-width: 700px) {
+
+  .Main-information {
+    flex-direction: column;
+  }
+
+  .Image-Right {
+    max-width: 100%;
+    align-items: center;
+    overflow: clip;
+  }
+
+  .Description-Left {
+    text-align: center;
+  }
+
 }
