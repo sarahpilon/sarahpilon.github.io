@@ -1,21 +1,56 @@
+/* Contact me button, Resume Button, 
+   background of projects and skills card*/
 .Color-1 {
-  background-color: #d9d9d9;
+  background-color: #cacaca;
 }
 
-/* When objects in Color one have an outline (images */
-.Color-1-Outline {
-  background-color: #d9d9d9;
-  outline: 4px solid #d9d9d9;
-}
 
+
+
+
+/* What holds text inside of Cards 
+(Example: Skills Title, Project Title, Project Description and skills)
+*/
 .Color-2 {
-    background-color: #b3b3b3;
+    background-color: #bbbdbd;
 }
 
-.DividerLine {
-  border-bottom: 2px solid black;   
+/* Extension of Card Color */
+.Proj-Outline {
+  background-color: #bbbdbd;
+  outline: 6px solid #bbbdbd;
 }
 
+/* Image Border */
+.Color-2-Outline {
+  outline: 5px solid #bbbdbd
+}
+
+
+
+
+
+/* */
 .Color-3 {
-  background-color: #333;
+  background-color: #747474;
+}
+
+
+
+
+/* Divider before title and description in About Me*/
+.DividerLine {
+  border-bottom: 5px solid #000000;   
+}
+
+.Proj-Underline {
+  text-decoration-color: #000000 ;
+}
+
+
+
+
+
+.Nav-Text-Color {
+  color: #000000;
 }

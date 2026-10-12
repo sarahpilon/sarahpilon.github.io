@@ -78,7 +78,6 @@
 }
 
 .Nav-Center a {
-  color: #f2f2f2;
   padding: 15px 50px;
   text-decoration: none;
   font-size: 17px;
@@ -95,7 +94,7 @@
 /* Contact button information */
 .Contact {
   padding: 8px 18px;
-  color: black;
+  color: inherit;
   text-decoration: none;
   transition: filter 0.3s ease;
   font-size: 17px;
@@ -112,6 +111,7 @@
   padding-left: 0;
   margin-bottom: 24px;
   font-weight: 800;
+  text-decoration: underline;
 }
 
 #Projects,
@@ -157,6 +157,7 @@
   /* The empty left spacer only exists to center the links on desktop */
   .Nav-Left {
     display: none;
+    padding: 0px;
   }
 
   .Nav-Center {
