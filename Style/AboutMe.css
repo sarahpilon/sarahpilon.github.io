@@ -67,7 +67,7 @@
 
 .Button {
   display: inline-flex;
-  filter: brightness(0.85);
+  filter: brightness(0.95);
   align-items: center;
   margin-top: 20px;
   margin-left: auto;
