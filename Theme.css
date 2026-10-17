@@ -1,38 +1,42 @@
+/* background color of the entire page/website */
+body {
+  background-color: #edede9;
+}
+
 /* Contact me button, Resume Button, 
    background of projects and skills card*/
 .Color-1 {
-  background-color: #cacaca;
+  background-color: #bba58f;
 }
-
-
-
-
 
 /* What holds text inside of Cards 
 (Example: Skills Title, Project Title, Project Description and skills)
+
+text card inner background and skill buttons
 */
 .Color-2 {
-    background-color: #bbbdbd;
+    background-color: #e8d9cd;
 }
 
-/* Extension of Card Color */
+/* Extension of Card Color
+
+project pic "popup"
+*/
 .Proj-Outline {
-  background-color: #bbbdbd;
-  outline: 6px solid #bbbdbd;
+  /* background color won't show if there's a pic
+  BUT IT DOES FIX THE GAP LETS GOOOOOOO*/
+  background-color: #bba58f; 
+  outline: 6px solid #bba58f;
 }
 
-/* Image Border */
+/* homepage Image Border */
 .Color-2-Outline {
-  outline: 5px solid #bbbdbd
+  outline: 5px solid #959d90;
 }
 
-
-
-
-
-/* */
+/* header and footer bar */
 .Color-3 {
-  background-color: #747474;
+  background-color: #bba58f;
 }
 
 
@@ -43,19 +47,17 @@
 
 
 
-/* Divider before title and description in About Me*/
+/* Divider btween name title and "about me" description*/
 .DividerLine {
-  border-bottom: 5px solid #000000;   
+  border-bottom: 5px solid #959d90;   
 }
 
+/* underline of section titles (projects/skills) */
 .Proj-Underline {
-  text-decoration-color: #000000 ;
+  text-decoration-color: #959d90 ;
 }
 
-
-
-
-
+/* navigation bar text color (excludes "contact me") */
 .Nav-Text-Color {
   color: #000000;
 }
