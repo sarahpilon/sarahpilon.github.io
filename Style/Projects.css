@@ -103,6 +103,7 @@
   padding: 12px;
   font-size: 1rem;
   line-height: 1.4;
+  min-height: 155px;
 }
 
 /* Tech chips row */

@@ -34,9 +34,13 @@
 }
 
 .Description {
-  font-size: 1.25rem;
+  font-size: clamp(0.8rem, 2.5vw, 1.2rem);
   font-weight: 600;
   line-height: 1.5;
+}
+
+.Description p {
+  text-indent: 1em;
 }
 
 /* right box */
@@ -48,7 +52,7 @@
   gap: 12px;
 }
 
-.Image-of-Me {
+#Image-of-Me {
   width: 100%;
   height: auto;
   display: block;
@@ -65,11 +69,18 @@
   height: 50%;
 }
 
+.Icons a {
+  transition: transform 0.4s ease;
+}
+
+.Icons a:hover {
+  transform: translateY(-2px);
+}
+
 .Button {
   display: inline-flex;
   filter: brightness(0.95);
   align-items: center;
-  margin-top: 20px;
   margin-left: auto;
   padding: 8px 18px;
   transition: filter 0.3s ease;
@@ -101,7 +112,6 @@
 
   .Description-Left {
     text-align: center;
-    margin-top: 155px;
   }
 
 }
