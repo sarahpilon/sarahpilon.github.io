@@ -140,6 +140,10 @@
 /* Phones */
 @media (max-width: 700px) {
 
+  html, body {
+    overflow-x: clip;
+  }
+
   .NavBarTop {
     padding: 8px 8px;
     gap: 4px;
