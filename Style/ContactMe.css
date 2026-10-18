@@ -92,7 +92,7 @@
     padding: 14px 18px;
     font-family: inherit;
     font-size: 1rem;
-    color: inherit;
+    color: black;
     border: none;
     border-radius: 12px;
     outline-width: 2px;
@@ -111,6 +111,7 @@
     align-self: center;
     padding: 8px 40px;
     font-family: inherit;
+    color: black;
     font-size: 1.2rem;
     border: none;
     border-radius: 8px;
@@ -147,6 +148,7 @@
     .Contact-TitleBody
     .Contact-Body {
         width: auto;
+        min-width: 0;
         max-width: 100%;
         overflow-wrap: break-word;
     }
