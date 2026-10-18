@@ -115,7 +115,8 @@
 }
 
 #Projects,
-#Skills {
+#Skills,
+#ContactMe {
   display: flex;
   flex-direction: column;
   justify-content: center;   

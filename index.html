@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="Style/Skills.css">
     <link rel="stylesheet" href="Style/ContactMe.css">
     <link rel="stylesheet" href="Theme.css">
+    <script src="Links.js" defer></script>
     <script src="Style/animation.js" defer></script>
+    <script src="Style/ContactMe.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Me</title>
   </head>
@@ -53,8 +55,8 @@
             <div class="Image-Right">
                 <img id="Image-of-Me" class="Color-2-Outline" src="img/SarahP.png" alt="Photo of Sarah Pilon">
                 <div class = Icons>
-                  <a href="https://www.linkedin.com/in/sarah-pilon-8b3839348/"><img src="img/icons/linkedin.png" alt="LinkedIn"></a>
-                  <a href="https://github.com/sarahpilon"><img src="img/icons/github.png" alt="GitHub"></a>
+                  <a data-href="linkedinURL"><img src="img/icons/linkedin.png" alt="LinkedIn"></a>
+                  <a data-href="githubURL"><img src="img/icons/github.png" alt="GitHub"></a>
                 </div>
             </div>
         <!------------------------------------------------------------------------------------------------>
@@ -293,9 +295,52 @@
 
 
 
+<section id="ContactMe" class="fadein">
+
+  <div class="ContactMe-Content">
+
+    <div class="Contact-Left">
+      <div class= "Contact-TitleBody">
+        <h1 class="Contact-Title NewSection Proj-Underline ibm-plex-mono-semibold"> Contact Me </h1>
+        <p class="Contact-Body varta-bold">
+          Want to reach out? Feel free to send me a message or connect with me on Linkedin!
+        </p>
+      </div>
+     <!-- The href uses the links pasted in Links.js -->
+      <a id="Linkedin-Card" class="Contact-Card Color-2 varta-semibold" data-href="linkedinURL" target="_blank" rel="noopener">
+        <img src="img/icons/linkedin_c.png" alt="Linkedin Logo">  
+        LinkedIn
+      </a>
+
+      <a id="Email-Card" class="Contact-Card Color-2 varta-semibold" data-mailto="emailAddress">
+        <img src="img/icons/mail_c.png" alt="Email Logo">  
+        Email
+      </a>
+    </div>
+
+    <form class="Contact-Form varta-semibold">
+      <!-- Invisible to people, stops bots -->
+      <input class="Required" aria-hidden="true" type="text" name="website" tabindex="-1" autocomplete="off">
+
+      <input class="Color-2" type="text" name="Name" placeholder="Name" aria-label="Name" required>
+      <input class="Color-2" type="email" name="Email" placeholder="Email" aria-label="Email" required>
+      <textarea class="Color-2" name="Message" rows="8" placeholder="Message to send..." aria-label="Message" required></textarea>
+      <button class="Color-2 SendButton" type="submit"> Send </button>
+      <p class="Form-Status" role="status" aria-live="polite"></p>
+
+    </form>
+
+  </div>
 
 
-<!------------------------------------------------------------------------------------------------>
+
+</section>
+
+
+
+
+
+<!---------------------------------------------------------------------------------------------->
 <div class="BottomHeader Color-3"></div>
   </body>
 </html>
