@@ -128,6 +128,12 @@
     min-height: 1.4em;
     text-align: center;
     font-size: 0.95rem;
+    margin: 0px;
+}
+
+.Form-Status.error {
+    color: #9b2c2c;
+    font-weight: 700;
 }
 
 @media (max-width: 700px) {
