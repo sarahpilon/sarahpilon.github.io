@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 
@@ -81,14 +79,15 @@
   padding: 15px 50px;
   text-decoration: none;
   font-size: 17px;
+  transition: filter 0.3s ease;
 }
 
 .Nav-Center a:hover {
-  filter: brightness(1.5);
+  filter: brightness(1.25);
 }
 
 .Nav-Center a.active {
-  filter: brightness(1.3);
+  filter: brightness(1.15);
 }
 
 /* Contact button information */
@@ -141,34 +140,31 @@
 /* Phones */
 @media (max-width: 700px) {
 
-   section#AboutMe {
-    padding-top: 62px;
-  }
-
   .NavBarTop {
-    padding: 15px 1px;
-    gap: 5px;
+    padding: 8px 8px;
+    gap: 4px;
     position: fixed;
     z-index: 1000;
     top: 0;
     left: 0;
     width: 100%;
+    justify-content: center;
   }
 
   /* The empty left spacer only exists to center the links on desktop */
   .Nav-Left {
     display: none;
-    padding: 0px;
   }
 
   .Nav-Center {
-    flex: 1;
+    flex: 0 1 auto;
+    min-width: 0;
     justify-content: center;
   }
 
   .Nav-Center a {
-    padding: 10px 8px;       /* was 15px 50px */
-    font-size: 14px;
+    padding: 8px 6px;       /* was 15px 50px */
+    font-size: 12px;
     white-space: nowrap;     /* stops "Skills" from wrapping */
   }
 
@@ -177,10 +173,16 @@
   }
 
   .Contact {
-    padding: 6px 10px;
-    font-size: 14px;
+    padding: 5px 8px;
+    font-size: 12px;
     white-space: nowrap;
     outline-width: 2px;
+  }
+
+  #Image-of-Me {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
 }

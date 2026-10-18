@@ -1,36 +1,42 @@
 <!doctype html>
 <html>
   <head>
+        <!----------------------------- Navigation, Scripts and Stylesheets! ----------------------------->
     <link rel="stylesheet" href="Style/MainFormatting.css">
     <link rel="stylesheet" href="Style/AboutMe.css">
     <link rel="stylesheet" href="Style/Projects.css">
     <link rel="stylesheet" href="Style/Skills.css">
-    <link rel="stylesheet" href="Style/ContactMe.css">
     <link rel="stylesheet" href="Theme.css">
+    <link rel="stylesheet" href="Style/ContactMe.css">
     <script src="Links.js" defer></script>
     <script src="Style/animation.js" defer></script>
     <script src="Style/ContactMe.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Me</title>
   </head>
   <body>
-        <!------------------------------------------------------------------------------------------------>
+
+
+
+
     <div class="NavBarTop Color-3">
 
       <!-- Main navigation bar -->
       <div class="Nav-Left"></div>
         <div class="Nav-Center"> <div class="ibm-plex-mono-bold">
-        <a class= "active Color-3 Nav-Text-Color" href="#AboutMe">About Me</a>
+        <a class= "Color-3 Nav-Text-Color" href="#AboutMe">About Me</a>
         <a class = "Color-3 Nav-Text-Color" href="#Projects">Projects</a>
         <a class = "Color-3 Nav-Text-Color" href="#Skills">Skills</a>
       </div></div>
 
       <!--   Contact button   -->
-      <div class="Nav-Right">
+      <div class="Nav-Right ibm-plex-mono-bold">
         <a class="Contact Color-1" href="#ContactMe">Contact me!</a>
       </div>
     </div>
-<!------------------ ABOUT ME SECTION ------------------->
+
+        <!------------------------------------------------------------------------------------------------>
+
+    <!------------------- ABOUT ME SECTION -------------------->
 <section id="AboutMe" class = "fadein">
     <div class="Page-Content">
         <!------------------------------------------------------------------------------------------------>
@@ -65,12 +71,10 @@
 </section>
     </div>
 
+    <!------------------- PROJECTS SECTION -------------------->
 <section id="Projects" class = "fadein">
 
 <h1 class = "NewSection Proj-Underline ibm-plex-mono-semibold"> Projects </h1>
-
-
-
 
   <div class="Projects-Content">
 
@@ -185,7 +189,7 @@
 </section>
 
 
-
+    <!-------------------- SKILLS SECTION --------------------->
 <section id="Skills" class = "fadein">
   <h1 class = "NewSection Proj-Underline ibm-plex-mono-semibold"> Skills </h1>
     <div class="Skills-Content">
@@ -294,7 +298,7 @@
 </section>
 
 
-
+    <!------------------ CONTACT ME SECTION ------------------->
 <section id="ContactMe" class="fadein">
 
   <div class="ContactMe-Content">
@@ -322,10 +326,10 @@
       <!-- Invisible to people, stops bots -->
       <input class="Required" aria-hidden="true" type="text" name="website" tabindex="-1" autocomplete="off">
 
-      <input class="Color-2" type="text" name="Name" placeholder="Name" aria-label="Name" required>
-      <input class="Color-2" type="email" name="Email" placeholder="Email" aria-label="Email" required>
-      <textarea class="Color-2" name="Message" rows="8" placeholder="Message to send..." aria-label="Message" required></textarea>
-      <button class="Color-2 SendButton" type="submit"> Send </button>
+      <input class="Color-2 Color-2-Outline" type="text" name="Name" placeholder="Name" aria-label="Name" required>
+      <input class="Color-2 Color-2-Outline" type="email" name="Email" placeholder="Email" aria-label="Email" required>
+      <textarea class="Color-2 Color-2-Outline" name="Message" rows="8" placeholder="Message to send..." aria-label="Message" required></textarea>
+      <button class="SendButton Color-2 Color-2-Outline" type="submit"> Send </button>
       <p class="Form-Status" role="status" aria-live="polite"></p>
 
     </form>
