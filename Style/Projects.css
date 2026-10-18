@@ -64,10 +64,12 @@
   justify-content: space-between;
   align-items: stretch;
   gap: 8px;
+  min-height: 56px;
 }
 
 .Proj-Title {
   flex: 1;
+  margin: 0;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -89,6 +91,8 @@
   padding: 4px 10px;
   font-size: 0.75rem;
   text-align: center;
+  flex: 1;
+  margin: 0;
 }
 
 .Proj-Description {

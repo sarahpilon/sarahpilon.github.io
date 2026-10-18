@@ -134,4 +134,20 @@
     .ContactMe-Content {
     display: block;
     }
+
+    .Contact-TitleBody {
+    width: 100%;
+}
+
+    .Contact-TitleBody
+    .Contact-Title {
+        white-space: normal;
+    }
+
+    .Contact-TitleBody
+    .Contact-Body {
+        width: auto;
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
 }
