@@ -2,7 +2,7 @@
 .Projects-Content {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: center; 
   gap: 24px;
   width: 100%;
@@ -17,6 +17,8 @@
   position: relative;       
   font-family: "Courier New", monospace;
   transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 /* No image shown when not hovered */
@@ -55,6 +57,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  flex: 1;
 
 }
 
@@ -96,6 +99,7 @@
 }
 
 .Proj-Description {
+  flex: 1;
   font-family: "Varta", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -103,7 +107,7 @@
   padding: 12px;
   font-size: 1rem;
   line-height: 1.4;
-  min-height: 155px;
+  height: 155px;
 }
 
 /* Tech chips row */
@@ -121,7 +125,7 @@
 }
 
 .card-link {
-  display: block; 
+  display: flex; 
   text-decoration: none; 
   color: inherit;
   transition: filter 0.3s ease;
